@@ -53,8 +53,7 @@
         flex-direction: column;
     }
 .foto{
-    height: 80px;
-    width: 80px;
+    display: none;
 }
 .lenguajes{
     justify-content: center;
@@ -69,7 +68,4 @@
     .aside{
         flex-direction: column;
     }
-}
-.foto{
-    display: none;
 }
