@@ -38,7 +38,7 @@ section[id]{
  flex-flow: column nowrap;
 }
 .inicio-btn{
-    display: none;
+    display: unset;
 }
 
 /* header style */
