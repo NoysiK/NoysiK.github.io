@@ -1,0 +1,100 @@
+@media (max-width: 1250px){
+    .lenguajes-div{
+        padding: 0 0;
+    }
+    .listas2{
+        padding: 0 0;
+    }
+    .foto{
+        height: 100px;
+        width: 100px;
+    }
+    .lenguajes{
+        font-size: 30px;
+    }
+}
+@media (max-width: 950px){
+    .logo{
+        display: none;
+    }
+    .menu{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: black;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .social{
+        align-items: center;
+        flex: none;
+        display: none;
+    }
+    .social a{
+        font-size: 10px;
+    }
+    .nav{
+        top: 0;
+        display: flex;
+        flex: none;
+        display: none;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .inicio-btn{
+        display: block;
+
+    }
+    
+}
+@media (max-width: 700px){
+    .articulos{
+        flex-direction: column;
+    }    
+    .aside{
+       display: flex;
+    }
+   .lenguajes{
+    justify-content: center;
+
+}
+.social{
+    display: none;
+}
+.menu-ext{
+    display: block;
+}
+}
+
+@media (max-width: 550px){
+    html{
+        justify-content: space-around;
+    }    
+    .aside{
+        display: none;
+    }
+     .foto-mobile{
+        display: flex;
+        width: 75px;
+    }
+    .div-foto-mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .nav i{
+        padding: 5px;
+    }
+    a{
+        padding: 3px;
+        font-size: 10px;
+    }
+    .inicio-btn{
+        padding: 3px;
+    }
+    .section-body{
+        justify-content: space-around;
+    }
+}
