@@ -1,0 +1,124 @@
+.menu{
+  background: #0F2027;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid #2C5364;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 99;
+}
+.menu-ext{
+  background: #0F2027;
+  text-align: left;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: none;
+}
+.menu-extensible{
+  margin-top: 190px;
+  background-color: #0F2027;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  z-index: 99;
+  display: none;
+}
+.menu-extensible a{
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.menu-ext i{
+  color: cyan;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.logo-div{
+  flex: auto;
+  display: flex;
+  align-items: center;
+
+}
+.nav{
+    flex: 5 1 auto;
+    justify-content: center;
+}
+    .nav{
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .nav a{
+        color:  #ffffff;
+    }
+    .nav i{
+      color: #ffffff;
+    }
+    .nav a:hover{
+        color: #000000dd;
+        background-color:cyan;
+        border-radius: 20px;
+        padding: 10px 10px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    .nav a:hover i{
+      color: #000000dd;
+    }
+
+.social{
+    display: flex;
+    justify-content: right;
+    flex: 1 1 auto;
+}
+.social a{
+    font-size:  20px;
+   padding: 0 0;
+}
+.social i{
+  color: #ffffff;
+}
+
+   .social i:hover{
+      border-radius: 20px;
+      background-color:cyan;
+      color: black;
+      transition: 0.5s;
+}
+.footer-social{
+  background-color: #2C5364;
+  display: flex;
+  margin: 0 10px ;
+}
+.icons-foot{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  height: 20px;
+  align-items: center;
+}
+.icons-foot a{
+  text-align: center;
+  flex-flow: row;
+}
+.icons-foot i{
+color: #ffff;
+}
+.icons-foot i:hover{
+  border-radius: 20px;
+  background-color: #0F2027;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
